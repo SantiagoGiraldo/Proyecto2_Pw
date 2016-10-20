@@ -33,7 +33,7 @@
 	<td class="text-center"><?php echo $producto['referencia']; ?></td>
 	<td class="text-center"><?php echo $producto['fecha_vencimiento']; ?></td>
 	<td class="text-center"><?php echo $producto['valor']; ?></td>
-	<td class="text-center"><img src="reloj.jpg<?php echo $producto['adjunto_producto']; ?>"  class="img-responsive" width="10%"></td>
+	<td class="text-center"><img src="adjunto_producto/<?php echo $producto['adjunto_producto']; ?>"  class="img-responsive" width="25%"></td>
 	<td class="text-center">
 	<a href="ver_producto.php?id=<?php echo $producto['id'] ?> " class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i></a>
 	<a href="editar_producto.php?id=<?php echo $producto['id'] ?>" class="btn btn-warning"><i class="fa fa-edit" aria-hidden="true"></i></a>

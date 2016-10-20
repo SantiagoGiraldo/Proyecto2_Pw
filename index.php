@@ -64,7 +64,7 @@ foreach ($productos as  $producto):
 		<div class="caption">
 			<h3><?php echo $producto ['nombre'] ?>;</h3>
 			<p>
-				<a href="#" class="btn btn-primary">$ <?php echo $producto ['valor'] ?>;</a>
+				<a href="#" class="btn btn-primary"> $ <?php echo $producto ['valor'] ?></a>
 				<a href="#" class="btn btn-default">Comprar</a>
 			</p>
 		</div>

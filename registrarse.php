@@ -1,6 +1,6 @@
 <?php
 	//Incluir Encabezado 
-require_once('layout/header.php');
+require_once('header.php');
 	if(isset($_POST['nombre']) 
 		&& isset($_POST['apellido'])
 		&& isset($_POST['email'])
@@ -61,5 +61,5 @@ require_once('layout/header.php');
 </div>
 <?php
 	//Incluir Pie de Pagina
-	require_once('layout/footer.php');
+	require_once('footer.php');
 ?>
